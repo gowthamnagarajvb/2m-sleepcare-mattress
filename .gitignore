@@ -4,3 +4,6 @@ assets/images/extracted/
 assets/images/clean/
 .DS_Store
 Thumbs.db
+test-beddy.html
+faq_section_template.html
+build_exact_replica.py
