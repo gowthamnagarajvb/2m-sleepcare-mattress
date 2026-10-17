@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3c9e" />
+      <stop offset="100%" stop-color="#061e52" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#favGrad)" />
+  <circle cx="32" cy="24" r="16" fill="#ffffff" stroke="#3b82f6" stroke-width="2" />
+  <text x="32" y="30" font-family="'Montserrat', sans-serif" font-weight="900" font-size="14" fill="#ea580c" text-anchor="middle">2M</text>
+  <path d="M 10 44 Q 32 36 54 44" stroke="#F5B318" stroke-width="3" stroke-linecap="round" fill="none" />
+  <text x="32" y="55" font-family="'Jost', sans-serif" font-weight="700" font-size="7" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">SLEEPCARE</text>
+</svg>

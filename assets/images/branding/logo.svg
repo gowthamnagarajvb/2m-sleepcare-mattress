@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90" width="420" height="90" fill="none">
+  <defs>
+    <linearGradient id="blueRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a3c9e" />
+      <stop offset="100%" stop-color="#072b75" />
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE066" />
+      <stop offset="100%" stop-color="#F5B318" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-10%" width="115%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Circular Badge -->
+  <g transform="translate(15, 6)">
+    <!-- Outer Ring -->
+    <circle cx="36" cy="36" r="34" fill="#0c42a8" stroke="#ffffff" stroke-width="2" />
+    <!-- White Inner Ring -->
+    <circle cx="36" cy="36" r="28" fill="#ffffff" />
+    <!-- Green Stripes -->
+    <g clip-path="url(#badgeClip)">
+      <circle cx="36" cy="36" r="26" fill="#f8fafc" />
+      <line x1="12" y1="28" x2="60" y2="28" stroke="#22c55e" stroke-width="2.5" />
+      <line x1="10" y1="34" x2="62" y2="34" stroke="#22c55e" stroke-width="2.5" />
+      <line x1="10" y1="40" x2="62" y2="40" stroke="#22c55e" stroke-width="2.5" />
+      <line x1="12" y1="46" x2="60" y2="46" stroke="#22c55e" stroke-width="2.5" />
+    </g>
+    <!-- 2M text -->
+    <text x="36" y="44" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="20" fill="#ea580c" text-anchor="middle" stroke="#ffffff" stroke-width="0.8">2M</text>
+    <!-- Circular Ring Text -->
+    <path id="curveTop" d="M 12 36 A 24 24 0 0 1 60 36" fill="none" />
+    <text font-family="'Jost', sans-serif" font-size="5.2" font-weight="700" fill="#ffffff">
+      <textPath href="#curveTop" startOffset="50%" text-anchor="middle">MATTRESS DIVISION</textPath>
+    </text>
+    <path id="curveBottom" d="M 60 36 A 24 24 0 0 1 12 36" fill="none" />
+    <text font-family="'Jost', sans-serif" font-size="4.8" font-weight="700" fill="#ffffff">
+      <textPath href="#curveBottom" startOffset="50%" text-anchor="middle">2M GROUP OF COMPANY</textPath>
+    </text>
+  </g>
+
+  <!-- Sleep Wave & Brand Banner -->
+  <g transform="translate(90, 8)" filter="url(#shadow)">
+    <!-- Mattress Wave Outline -->
+    <path d="M 2 34 Q 40 10 95 24 T 210 18 Q 260 12 310 22 C 315 23 318 26 318 31 L 318 68 C 318 73 314 76 309 76 L 9 76 C 4 76 0 72 0 67 L 0 38 Z" fill="url(#blueRibbon)" />
+    
+    <!-- Accent Wave Highlights -->
+    <path d="M 5 35 Q 45 14 98 26 T 212 20 Q 255 16 312 24" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" />
+    <path d="M 12 40 Q 50 22 100 32 T 215 26 Q 250 22 305 30" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-linecap="round" opacity="0.7" />
+
+    <!-- Main Title -->
+    <text x="18" y="54" font-family="'Jost', 'Georgia', serif" font-weight="700" font-size="21" fill="url(#goldText)" letter-spacing="0.5">2M SleepCare Mattress<tspan font-size="12" dy="-8" fill="#F5B318">®</tspan></text>
+    
+    <!-- Subtitle -->
+    <text x="18" y="70" font-family="'Montserrat', sans-serif" font-weight="500" font-size="9.5" fill="#e2e8f0" letter-spacing="0.8">A QUALITY PRODUCT FROM 2M GROUP</text>
+    
+    <!-- ISO Badge Pill -->
+    <g transform="translate(232, 57)">
+      <rect width="78" height="15" rx="3" fill="#1e40af" stroke="#60a5fa" stroke-width="0.8" />
+      <text x="39" y="11" font-family="'Montserrat', sans-serif" font-size="7.5" font-weight="700" fill="#ffffff" text-anchor="middle">ISO 9001:2015</text>
+    </g>
+  </g>
+</svg>

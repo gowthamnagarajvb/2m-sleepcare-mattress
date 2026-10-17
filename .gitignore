@@ -1,0 +1,6 @@
+# Temporary and reference files
+reference/
+assets/images/extracted/
+assets/images/clean/
+.DS_Store
+Thumbs.db
