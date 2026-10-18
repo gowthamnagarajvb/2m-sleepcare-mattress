@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>2M Care Matress</title>
+  <script>
+    (function() {
+      var path = window.location.pathname.toLowerCase();
+      if (path.indexOf('about') !== -1) {
+        window.location.replace('about.html');
+      } else if (path.indexOf('product') !== -1 || path.indexOf('collection') !== -1) {
+        window.location.replace('products.html');
+      } else if (path.indexOf('blog') !== -1) {
+        window.location.replace('blog.html');
+      } else if (path.indexOf('contact') !== -1 || path.indexOf('faq') !== -1) {
+        window.location.replace('contact.html');
+      } else {
+        window.location.replace('index.html');
+      }
+    })();
+  </script>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: center; padding-top: 50px;">
+  <h2>Redirecting to 2M Care Matress...</h2>
+  <p><a href="index.html">Click here to return to the Home page</a></p>
+</body>
+</html>
